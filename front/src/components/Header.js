@@ -1,20 +1,13 @@
 import React from 'react';
+import '../styles/Header.css'; // Import the CSS file
 
 const Header = () => {
     return (
-        <header style={styles.header}>
+        <div className="header">
             <h1>Wireframe Site</h1>
-        </header>
+        </div>
     );
 };
 
-const styles = {
-    header: {
-        padding: '1rem',
-        backgroundColor: '#282c34',
-        color: 'white',
-        textAlign: 'center'
-    }
-};
 
 export default Header;

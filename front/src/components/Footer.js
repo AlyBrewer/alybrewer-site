@@ -1,21 +1,13 @@
 import React from 'react';
+import '../styles/Footer.css'; // Import the CSS file
 
 const Footer = () => {
     return (
-        <footer style={styles.footer}>
+        <div className="footer">
             <p>© 2024 My Wireframe Site</p>
-        </footer>
+        </div>
     );
 };
 
-const styles = {
-    footer: {
-        padding: '1rem',
-        backgroundColor: '#282c34',
-        color: 'white',
-        textAlign: 'center',
-        marginTop: 'auto'
-    }
-};
 
 export default Footer;

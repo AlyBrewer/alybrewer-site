@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import '../styles/MainContent.css'; // Import the CSS file
 import axios from 'axios';
 
 const MainContent = () => {
@@ -19,10 +20,10 @@ const MainContent = () => {
     }
 
     return (
-        <main style={styles.main}>
+        <div className="MainContent">
             <h2>{data.title}</h2>
             <p>{data.content}</p>
-        </main>
+        </div>
     );
 };
 

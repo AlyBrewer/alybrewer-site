@@ -1,0 +1,13 @@
+@import './Variables.css';
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5; /* Optional background for the entire app */
+  min-height: 100vh; /* Ensures the container takes up the full viewport height */
+}
+
+.main-content {
+  flex: 1; /* Allows this section to grow and push the footer to the bottom */
+}
